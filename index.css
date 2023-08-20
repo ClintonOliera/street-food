@@ -102,3 +102,52 @@ header .nav {
         padding-left: 10px;
     }
 }
+#home {
+    background-color: #e5e5e5;
+}
+#home .hero {
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    position: relative;
+    z-index: 100;
+}
+.hero div {
+    margin-top: 0px;
+    max-width: 430px;
+}
+.hero h1 {
+    font-weight: 900;
+    font-size: 40px;
+    color: #eaab1b;
+    /*  */
+    margin-bottom: 0px;
+}
+.hero span{
+    color: #6cb840; 
+}
+
+.hero h1>span {
+    color: #535048;
+}
+.hero h3 {
+    font-size: 35px;
+    color: #404040;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.hero p {
+    line-height: 33px;
+    margin-bottom: 8px;
+    font-size: 19px;
+}
+
+button.order-now {
+    margin-top: 60px;
+}
+
+button.order-now:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background: #64aa3c;
+}
