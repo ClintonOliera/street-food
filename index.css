@@ -33,3 +33,26 @@ a {
     transition: all 0.3s linear;
     outline: none;
 }
+
+header {
+    padding: 20px 15px 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 15;
+}
+header .nav {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    justify-content: space-around;
+}
+
+.right-nav, .left-nav {
+    width: 42%;
+}
+
+.right-nav {
+    margin-left: auto;
+}
