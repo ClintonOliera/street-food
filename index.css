@@ -172,6 +172,7 @@ button.order-now:hover {
 .circular-bg {
     height: 1200px;
     width: 1200px;
+    /* background-color: #b8e79c; */
     background-color: #649549;
     position: absolute;
     top: 0;
