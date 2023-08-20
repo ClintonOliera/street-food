@@ -7,7 +7,7 @@ html, body, #main {
     margin: 0;
     padding: 0;
     height: 100%;
-    font-family: Poppins, Nunito, serif;
+    font-family: Poppins;
 }
 
 #main {
@@ -139,7 +139,7 @@ header .nav {
     /*  */
     margin-bottom: 0px;
 }
-.hero span{
+.hero h1>span{
     color: #6cb840; 
 }
 
@@ -172,7 +172,6 @@ button.order-now:hover {
 .circular-bg {
     height: 1200px;
     width: 1200px;
-    /* background-color: #b8e79c; */
     background-color: #649549;
     position: absolute;
     top: 0;
@@ -297,7 +296,7 @@ button.order-now:hover {
         font-size: 18px;
     }
     .circular-bg {
-        transform: translate(300px, -65%) rotate(-45deg);
+        transform: translate(400px, -65%) rotate(-45deg);
     }
     .main-dish {
         top: 60%;
