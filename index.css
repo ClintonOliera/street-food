@@ -297,7 +297,7 @@ button.order-now:hover {
         font-size: 18px;
     }
     .circular-bg {
-        transform: translate(350px, -65%) rotate(-45deg);
+        transform: translate(325px, -65%) rotate(-45deg);
     }
     .main-dish {
         top: 60%;
