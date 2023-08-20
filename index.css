@@ -56,3 +56,21 @@ header .nav {
 .right-nav {
     margin-left: auto;
 }
+.center-logo {
+    width: 16%;
+}
+
+.nav .nav-item {
+    padding: 0 15px;
+    font-size: 19px;
+    font-weight: 550;
+}
+
+.center-logo .logo-text {
+    margin-top: -25px;
+}
+
+.center-logo .logo-text h1 {
+    font-weight: 300;
+    display: block;
+}
